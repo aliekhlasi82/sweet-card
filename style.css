@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+body {
+  background-color: rgb(50, 47, 47);
+}
+#main {
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 3px;
+}
+.card {
+  width: 250px;
+  height: 800px;
+  background-color: aliceblue;
+  display: inline-block;
+
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(175, 172, 172) 3px,
+    white 1px
+  );
+  background-size: 49px 49px;
+  box-shadow: 0 0 10px;
+  margin-top: 60px;
+  line-height: 50px;
+}
+.card div {
+  margin: 0 13px 0 13px;
+}
+.img {
+  display: block;
+  height: 220px;
+  width: auto;
+  text-align: center;
+  box-shadow: 0 0 10px;
+  background-color: rgb(225, 222, 222);
+  border-radius: 15px;
+}
+p {
+  font-size: 30px;
+  text-align: left;
+  font-family: "Shadows Into Light";
+}
+#card1 {
+  transform: rotate(-20deg);
+}
+#card2 {
+  transform: rotate(-15deg);
+  position: absolute;
+}
+#card3 {
+  transform: rotate(-10deg);
+}
+#card4 {
+  transform: rotate(-5deg);
+}
+#card5 {
+  transform: rotate(0deg);
+}

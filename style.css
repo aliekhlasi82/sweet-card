@@ -53,6 +53,7 @@ p {
 }
 #card3 {
   transform: rotate(-10deg);
+  position: relative;
 }
 #card4 {
   transform: rotate(-5deg);
